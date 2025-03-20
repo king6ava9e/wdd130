@@ -18,7 +18,7 @@ text-align: center;
 
 p {padding: 0;}
 
-main {width:  fit-content; margin: auto; border: 5px solid rgb(0,0,0/0.3); padding: 1rem;background-color:rgb(208, 180, 21);color: rgb(18, 7, 7);
+main {width:  fit-content; margin: auto; border: 5px solid rgb(0,0,0/0.3); padding: 1rem;background-color:rgb(217, 209, 163);color: rgb(18, 7, 7);
 text-align: center;}
 
 .image_aside{width: 200px;height: auto;}
@@ -26,6 +26,6 @@ text-align: center;}
 footer{ margin-top: 15px;border-top: 1px solid; text-align: center;}
 
 aside {width: 20rem; margin: 1rem; border: 1px solid;
-padding: 1rem; background-color: rgb(208, 180, 21);color:rgb(18, 7, 7) ;
+padding: 1rem; background-color: rgb(217, 209, 162);color:rgb(18, 7, 7) ;
 text-align: center;}
 
