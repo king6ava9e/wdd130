@@ -5,7 +5,7 @@
 }
 
 
-h1 {font: size 26px;color: #505033; line-height: normal;
+h1 {font-size:  26px;color: #505033; line-height: normal;
 text-align: center;}
 
 h2 {font-size: 26px;text-align: center;
@@ -64,7 +64,7 @@ justify-content: center; height: auto;text-align: center;}
             display: flex;
             align-items: flex-start; /* Aligns logo and navigation */
             gap: 10px; /* Creates spacing between logo and links */
-            background-color: rgba(40, 112, 189, 0.8); /* Light transparent background */
+            background-color: rgba(245, 222, 179, 0.8); /* Light transparent background */
             padding: 10px 20px;
             border-radius: 8px;
         }
