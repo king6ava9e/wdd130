@@ -3,6 +3,7 @@
 --accent1-color:#141413;
 --accent2-color:#B4CDE4;
 }
+body {background-color:rgb(247, 243, 238);}
 
 
 h1 {font-size:  26px;color: #505033; line-height: normal;
@@ -386,4 +387,26 @@ footer {
 }
 
 
+/* company info section */
+.company_info {display: grid;grid-template-rows: auto,auto;grid-template-columns: 1fr, 1fr;border: 1px solid aqua;margin: 1rem;background-color: rgb(124, 247, 247);}
 
+.address {grid-row: 1;grid-column: 1; padding: 1rem;}
+
+.addrespara {font-size: medium;}
+
+.phone_numbers {grid-row: 2.5/3; grid-column: 1/auto;padding: 1rem;}
+
+.phonewr {font-size: medium;}
+
+.email {grid-row: 2/auto;grid-column: 1/auto;padding: 1rem;}
+
+.emailtext{font-size: medium;}
+
+.map {grid-area: 1/2/4/3 ;padding: 1rem;width: fit-content;height:fit-content;}
+
+/*employess image profiles */
+.employee_profile_images {display: flex; justify-content: center;border: 1.5px solid black;border-radius: 5px;background-color: antiquewhite;}
+
+/* contact form */
+.forms {display: flex;background-color: aliceblue;padding: 1rem;margin-bottom: 1rem;}
+.buton {background-color:beige;border: 1px solid brown;font-size: medium;font-style: oblique;color: #505033;}
