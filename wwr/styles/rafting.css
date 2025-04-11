@@ -34,16 +34,16 @@ body {width:auto;margin:2rem;
         top: 15%;  /* Adjusts vertical placement */
         right: 28%;
         transform: translateX(-50%); /* Centers it horizontally */
-        color: rgb(245, 222, 179);
+        color: rgb(100, 100, 100);
         font-size: 3rem;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);}
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);}
 
 .hero article { position: absolute;
     top: 40%;  /* Moves the article to the vertical center */
     left: 20%; /* Moves it towards the right */
     transform: translateY(-40%); /* Ensures perfect centering */
     background-color: rgba(245, 222, 179, 0.8); /* Semi-transparent background */
-    color: rgb(152, 58, 58);
+    color: rgb(50, 50, 50);
     padding: 20px;
     width: 60%;
     border-radius: 10px;
@@ -88,11 +88,12 @@ body {width:auto;margin:2rem;
         
         .navid a {
             text-decoration: none;
-            color: var(--accent1-color);
+            color: #ffffff;;
             font-weight: bold;
             padding: 0.5rem 1rem;
             border: 1px solid;
             margin-left: 5rem;
+            background-color: var(--primary-color);
         }       
 
 /* History section 
@@ -388,7 +389,7 @@ footer {
 
 
 /* company info section */
-.company_info {display: grid;border: 1px solid aqua;margin: 1rem;background-color: rgb(124, 247, 247);}
+.company_info {display: grid;border: 1px solid aqua;margin: 1rem;background-color: #007a7a;}
 
 .address {grid-row: 1;grid-column: 1; padding: 1rem;}
 
@@ -409,4 +410,4 @@ footer {
 
 /* contact form */
 .forms {display: flex;background-color: aliceblue;padding: 1rem;margin-bottom: 1rem;}
-.buton {background-color:beige;border: 1px solid brown;font-size: medium;font-style: oblique;color: #505033;}
+.buton {background-color: #264969;;border: 1px solid brown;font-size: medium;font-style: oblique;color: #ffffff;}
