@@ -427,7 +427,7 @@ footer {grid-area: footer;
 .funpic{width: 20rem; display: grid;grid-column:3/4 ;}
 .funimage{grid-column: 3/4;padding: 1rem;display: grid;align-items: center;}
 .funimage h1 {grid-column: 4;}
-.textcontents {grid-column: 4/5; padding: 1rem;margin-bottom: 1rem;gap: ;}
+.textcontents {grid-column: 4/5; padding: 1rem;margin-bottom: 1rem; }
 
 .form {width: 20%;margin: 1rem;grid-area: form;margin-left: 8rem;margin-top: 8rem;}
 
